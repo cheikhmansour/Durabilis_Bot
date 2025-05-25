@@ -1,0 +1,45 @@
+{
+    "title": "Inégalités de Classement : Le Cyclisme Féminin Toujours à la Traîne en 2021, en Afrique",
+    "subtitle": "Cyclisme : Un Écart de Performance qui Persiste Malgré les Efforts de Parité",
+    "introduction": "Les données des performances africaines dans les compétitions UCI révèlent un contraste marqué entre hommes et femmes. [cite: 1] Les cyclistes masculins se classent en moyenne à la 39e place, tandis que leurs homologues féminines affichent une meilleure moyenne, à la 26e place, avec une médiane bien plus favorable (10 contre 28 pour les hommes). [cite: 2] Ces disparités reflètent des inégalités structurelles, notamment un financement insuffisant et une couverture médiatique limitée pour les compétitions féminines. [cite: 3] Malgré quelques progrès récents, le chemin vers une véritable égalité dans le cyclisme reste semé d’embûches. [cite: 4]",
+    "analysis": {
+      "overall_inequalities": "Le cyclisme demeure un sport où les inégalités de genre sont omniprésentes. [cite: 5] En Afrique, comme ailleurs, les performances des femmes montrent souvent des classements globaux meilleurs que ceux des hommes. [cite: 6] Pourtant, ces résultats ne traduisent pas une égalité réelle en termes de soutien ou d’opportunités. [cite: 7] Les cyclistes féminines continuent de souffrir d’un manque de ressources et d’une visibilité médiatique limitée, ce qui freine leur progression dans un système encore déséquilibré. [cite: 8]",
+      "performance_discrepancies": "Les performances des cyclistes africains dans les compétitions UCI mettent en évidence des écarts significatifs entre les genres. [cite: 11] Les femmes se classent en moyenne à la 26e place, avec une médiane à 10 et un écart-type de 30,98, indiquant une certaine stabilité dans leurs résultats. [cite: 12] En revanche, les hommes occupent en moyenne la 39e place, avec une médiane de 28 et un écart-type plus élevé de 35,63, révélant une variabilité plus importante dans leurs performances. [cite: 13] Ces chiffres montrent que les femmes affichent une meilleure constance dans leurs résultats compétitifs. [cite: 14] Cependant, cette relative stabilité ne suffit pas à combler les inégalités persistantes qui freinent leur développement global. [cite: 15]",
+      "explanatory_factors": [
+        {
+          "heading": "Financement limité",
+          "description": "Le financement limité des équipes féminines reste un obstacle majeur. [cite: 17] Ces équipes reçoivent souvent moins de ressources financières que leurs homologues masculines, ce qui affecte directement leur capacité à s’entraîner efficacement et à rivaliser sur la scène internationale. [cite: 18]"
+        },
+        {
+          "heading": "Faible médiatisation",
+          "description": "La faible médiatisation des compétitions féminines réduit leur visibilité auprès du grand public et limite leur attractivité pour les sponsors potentiels. [cite: 19]"
+        },
+        {
+          "heading": "Accès inégal aux compétitions",
+          "description": "L’accès aux compétitions prestigieuses est inégalement réparti. [cite: 20] Alors que le Tour de France Femmes marque un progrès important pour le cyclisme féminin, il reste encore en développement et n’offre pas les mêmes opportunités que son équivalent masculin. [cite: 20]"
+        },
+        {
+          "heading": "Barrières sociales et culturelles en Afrique",
+          "description": "En Afrique, des barrières sociales et culturelles freinent également la participation féminine au cyclisme. [cite: 21] Les normes traditionnelles sur les rôles de genre limitent souvent l’accès des femmes au sport et influencent négativement leur progression au niveau professionnel. [cite: 22]"
+        }
+      ]
+    },
+    "consequences": "Ces inégalités systémiques ont des conséquences importantes sur le développement du cyclisme féminin en Afrique. [cite: 23] Bien que les performances prometteuses des femmes montrent leur potentiel, elles manquent encore d’opportunités pour rivaliser sur un pied d’égalité avec les hommes. [cite: 24] Cette absence de parité prive également le sport de talents féminins sous-exploités qui pourraient enrichir sa diversité et son attractivité globale. [cite: 25]",
+    "conclusion": "Les performances africaines féminines dans les compétitions UCI démontrent clairement leur potentiel compétitif. [cite: 26] Cependant, les conditions actuelles ne permettent pas un développement égal entre hommes et femmes dans le cyclisme africain. [cite: 27] Pour atteindre une véritable égalité, il est essentiel d’investir davantage dans le soutien aux équipes féminines, d’améliorer la médiatisation des compétitions féminines et d’adopter des politiques inclusives visant à réduire ces écarts structurels. [cite: 28] Seule une approche coordonnée permettra au cyclisme féminin africain de s’épanouir pleinement sur la scène internationale. [cite: 29]",
+    "authors": [
+      "Muriel BITOME [cite: 30]",
+      "Cheikh Mansour SOW [cite: 30]"
+    ],
+    "data_sources": [
+      {
+        "name": "UCI Race Results",
+        "url": "https://www.kaggle.com/datasets/mexwell/uci-race-results",
+        "license": "CC0 Public domain [cite: 30]"
+      }
+    ],
+    "references": [
+      "UCI.org : Augmentation des salaires des équipes féminines en 2021.",
+      "WeLoveCycling.com : Temps d'entraînement réduit des femmes.",
+      "CyclismeRevue.be : Égalité dans le peloton. [cite: 31]"
+    ]
+  }
