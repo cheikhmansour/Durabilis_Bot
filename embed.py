@@ -6,7 +6,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 
 # Définir directement ta clé API
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDOFi3F068et2KSyo5aqoOSKUpN2Q65toA"
+os.environ["GOOGLE_API_KEY"] = "///"
 
 # Charger le fichier JSON
 with open("Livrable_01.json", "r", encoding="utf-8") as f:
