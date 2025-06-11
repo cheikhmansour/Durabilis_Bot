@@ -1,0 +1,25 @@
+-------------- Première partie -------------------
+Rendu du livrable_01 (Aïcha MBaye - script / Mansour - relecture) :
+Nous avons converti 11 documents (dont nous avions l'autorisation d'utilisation) en un fichier JSON, structuré avec des métadonnées bien définies.
+Cette conversion a été faite via un script Python (script.py).
+Ce fichier constitue le corpus livrable_01.json.
+
+-------------- Deuxième partie -------------------
+Encodage (Afdel) :
+Le fichier JSON a été transformé en embeddings à l’aide du modèle de Google models/embedding-001.
+Les embeddings ont été sauvegardés au format .pkl avec Faiss, à des fins de test et de vérification.(script complet : embed.py)
+
+-------------- Troisième partie -------------------
+Indexation (Yeriba - script / Mansour - test et optimisation) :
+L’indexation a été réalisée avec Pinecone (version gratuite).
+Les embeddings sont désormais stockés dans le cloud. (script : index_cloud.py)
+Résultat : 768 dimensions par embedding, pour un total de 118 chunks indexés.
+
+-------------- Quatrième partie -------------------
+Interface (Mansour & Aïcha MBaye - accompagnement / revue) :
+Une interface chatbot a été mise en place via Same.dev.
+
+Défis restants :
+Intégration entre Same.dev et GitHub
+Amélioration continue du design
+
