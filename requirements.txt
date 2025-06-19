@@ -1,0 +1,26 @@
+# Dépendances principales
+fastapi==0.109.2
+uvicorn==0.27.1
+pydantic==2.6.1
+langchain==0.1.1
+google-generativeai==0.4.0
+pinecone-client==2.2.10
+
+# Dépendances pour le traitement des documents
+python-docx==1.0.1
+json5==0.9.14
+
+# Dépendances pour le stockage vectoriel
+numpy>=1.24.0
+scikit-learn>=1.0.2
+
+# Dépendances pour l'interface utilisateur
+streamlit==1.31.0
+
+# Dépendances pour le développement
+pytest==7.4.3
+black==23.12.1
+flake8==7.0.0
+
+# Dépendances pour la gestion des environnements
+python-dotenv==1.0.0 

@@ -1,12 +1,12 @@
 import os
 import json
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 
 # Définir directement ta clé API
-os.environ["GOOGLE_API_KEY"] = "///"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyBXFTSet6N_mEqht8KYwEcJhu-v1PVuonw"
 
 # Charger le fichier JSON
 with open("Livrable_01.json", "r", encoding="utf-8") as f:
@@ -34,8 +34,11 @@ chunks = text_splitter.split_documents(documents)
 # Générer les embeddings avec Gemini
 embedding = GoogleGenerativeAIEmbeddings(model="models/embedding-001", task_type="retrieval_document")
 
-# Créer l'index FAISS
-db = FAISS.from_documents(chunks, embedding)
-
-# Sauvegarder l'index
-db.save_local("vectorstore_livrable01")
+# Créer l'index Chroma
+vectorstore = Chroma.from_documents(
+    documents=chunks,
+    embedding=embedding,
+    persist_directory="vectorstore_livrable01"
+)
+vectorstore.persist()
+print("✅ Base vectorielle Chroma créée et sauvegardée dans 'vectorstore_livrable01'.")
